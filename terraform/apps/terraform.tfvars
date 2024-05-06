@@ -2,6 +2,7 @@ resource_group_name            = "BlueRG"
 container_app_environment_name = "BlueEnvironment"
 container_registry_name        = "BlueRegistry"
 workload_managed_identity_name = "BlueWorkloadIdentity"
+
 container_apps                 = [
   {
     name                            = "chatapp"
